@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - InvBucket
+  - Enemy
+  - PlayerProjectile
+  - GeneralManager
+  - UIManager
+  - DifficultyManager
+  - Projectile
+  - PrefabManager
+  - VirtualCamera
+  - InvDisplayCamera
+  - InputManager
+  - SpawnSurface
+  - LevelGenerator
+  - GlobalVolume
+  - MenuManager
+  - SoundClipLibrary
+  - GroundPlatform
+  - Building
+  - LevelGameObject
+  - Portal
+  - Boss
+  - SmallAttachmentSpawn
+  - GateKeeper
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - PlayerProjectiles
+  - Player
+  - Items
+  - Enemies
+  - PPVolume
+  - Projectile
+  - Background
+  - Parallax
+  - EnemyProjectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackgroundScrol
+    uniqueID: 3127596369
+    locked: 0
+  - name: Background
+    uniqueID: 2860160837
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ForegroundScrol
+    uniqueID: 167597265
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 3508714503
+    locked: 0
+  - name: Items
+    uniqueID: 347125087
+    locked: 0
+  - name: UI
+    uniqueID: 1726808315
+    locked: 0
+  - name: PlayerParticles
+    uniqueID: 3856969357
+    locked: 0
+  - name: UI No Light
+    uniqueID: 1911873441
+    locked: 0

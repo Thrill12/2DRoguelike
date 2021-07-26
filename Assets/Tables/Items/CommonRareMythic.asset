@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a709598a5d539b45b61a3bd9c308aa7, type: 3}
+  m_Name: CommonRareMythic
+  m_EditorClassIdentifier: 
+  rarities:
+  - rarity: {fileID: 11400000, guid: 2089e2a1700bfe74ba7f8f828c752b83, type: 2}
+    rarityWeight: 65
+  - rarity: {fileID: 11400000, guid: 0bc5e1fd2e17a7f44bfe9c4a7a0df5ed, type: 2}
+    rarityWeight: 30
+  - rarity: {fileID: 11400000, guid: 5200e0b4076bb0b43bf79288c0206fc8, type: 2}
+    rarityWeight: 5
+  - rarity: {fileID: 11400000, guid: df67e613dc41cce4f8ff9719ac3ce9bd, type: 2}
+    rarityWeight: 3
+  rarChosen: {fileID: 11400000, guid: 2089e2a1700bfe74ba7f8f828c752b83, type: 2}

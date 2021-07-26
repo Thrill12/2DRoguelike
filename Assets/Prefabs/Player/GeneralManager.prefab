@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8982881776155021608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8982881776155021610}
+  - component: {fileID: 8982881776155021605}
+  - component: {fileID: 4098583508641482778}
+  m_Layer: 0
+  m_Name: GeneralManager
+  m_TagString: GeneralManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8982881776155021610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8982881776155021608}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -203.99675, y: 16.024866, z: -5.834387}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8982881776155021605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8982881776155021608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e76ed8e4840db44b74c229e36182ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gamePoints: 0
+  timer: 0
+  canCountTime: 1
+  hasSpawnedPortal: 0
+  playerPrefab: {fileID: 4039890028315705882, guid: 57e00212d8dc53d43b854648bd3d6dcd, type: 3}
+  difficultyManager: {fileID: 8130683271734792823, guid: b6b7996e09098b24cabb6069abb04cdc, type: 3}
+  globalVolume: {fileID: 9042790979028281347, guid: 57624d747d7f7624c88b207cbede6805, type: 3}
+  inputManager: {fileID: 841236185777120196, guid: 5e2164ffd206fbe40afd73450708a8b3, type: 3}
+  prefabManager: {fileID: 7301685555986200076, guid: e227c5fb23c85cc4997fdac48dc0659f, type: 3}
+  levelsCompleted: 0
+  enemiesToKill: 20
+  lit: {fileID: 2100000, guid: c783cb27a3191ed488e3a62962930c2b, type: 2}
+  unlit: {fileID: 2100000, guid: 4b46228631c71d64ba158ddbccaaa561, type: 2}
+  sceneNames:
+  - Sanguine Basin
+  - YellowCity
+  soulMarks: 0
+--- !u!114 &4098583508641482778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8982881776155021608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a90d4fb4b8923c4592ef4eaadd24bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ccaf0681341da64ea9eef0e1e989e67, type: 3}
+  m_Name: Claymore
+  m_EditorClassIdentifier: 
+  name: Claymore
+  skillIcon: {fileID: 3005121338723067259, guid: 668b4ccc74383c14d95465f7efe2fcd9, type: 3}
+  cooldownTime: 5
+  activeTime: 0
+  inputManager: {fileID: 0}
+  prefabManager: {fileID: 0}
+  sounds: {fileID: 0}
+  caster: {fileID: 0}
+  shootSource: {fileID: 0}
+  mousePos: {x: 0, y: 0, z: 0}
+  throwVelocity: 5
+  damage: 150
+  claymore: {fileID: 3182371134929237535, guid: 51c5b3a28c327c74ab7400c854597979, type: 3}

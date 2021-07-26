@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673b21e4fdb123443bdd33a83b10cb36, type: 3}
+  m_Name: Grenading
+  m_EditorClassIdentifier: 
+  name: Grenading
+  skillIcon: {fileID: -5638742230812837652, guid: 668b4ccc74383c14d95465f7efe2fcd9, type: 3}
+  cooldownTime: 5
+  activeTime: 0
+  inputManager: {fileID: 0}
+  prefabManager: {fileID: 0}
+  sounds: {fileID: 0}
+  caster: {fileID: 0}
+  shootSource: {fileID: 0}
+  mousePos: {x: 0, y: 0, z: 0}
+  damage: 120
+  velocity: 5
+  timer: 1.3
+  radius: 4
+  projectile: {fileID: 2764920906185064428, guid: 37b4e8465d72c104cab48f14bb8077f0, type: 3}

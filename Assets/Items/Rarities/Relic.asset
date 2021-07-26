@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e625b0ab0cbefb445afb09c3bb794960, type: 3}
+  m_Name: Relic
+  m_EditorClassIdentifier: 
+  rar:
+    rarityName: Relic
+    rarityColor: {r: 1, g: 0.34871796, b: 0, a: 1}
+    scaleInInv: {x: 1.5, y: 1.5}
+    itemsInRarity:
+    - itemName: Silly Syringe
+      itemWeight: 1
+      itemObject: {fileID: 9068296931635265460, guid: 3a16779fc19585c458b3a62db1a22398, type: 3}
+    - itemName: Parted Lens
+      itemWeight: 1
+      itemObject: {fileID: 4866833370648414891, guid: 5f719d05ce709044ab60f75605165665, type: 3}
+    - itemName: Blunt Butter Blade
+      itemWeight: 1
+      itemObject: {fileID: 3352678111765640598, guid: d7352da870f434e47984669b2f94c7d3, type: 3}
+  rarityWeight: 0

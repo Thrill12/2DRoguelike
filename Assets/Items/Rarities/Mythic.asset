@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e625b0ab0cbefb445afb09c3bb794960, type: 3}
+  m_Name: Mythic
+  m_EditorClassIdentifier: 
+  rar:
+    rarityName: Mythic
+    rarityColor: {r: 0.93412876, g: 0, b: 1, a: 1}
+    scaleInInv: {x: 1.5, y: 1.5}
+    itemsInRarity:
+    - itemName: Golden Snowflake
+      itemWeight: 50
+      itemObject: {fileID: 8414239142312835454, guid: b21d71de0f0e55140a5c0fe9e96f9c99, type: 3}
+    - itemName: Tiger Teddy
+      itemWeight: 50
+      itemObject: {fileID: 48132690529838660, guid: 4ce2a6d3796beef449aac5cef3d95158, type: 3}
+    - itemName: Phoenix Ember
+      itemWeight: 50
+      itemObject: {fileID: 6872740739807180282, guid: 279c8f50ad5f066458fa011d2849889b, type: 3}
+    - itemName: Ragnarok
+      itemWeight: 50
+      itemObject: {fileID: 1828310366663545849, guid: 064d436ad2383d140af93902eb8da61a, type: 3}
+    - itemName: Red Juice
+      itemWeight: 50
+      itemObject: {fileID: 3233497109591527113, guid: 3a1459ccd411e38419b5e9eeabb61721, type: 3}
+  rarityWeight: 0

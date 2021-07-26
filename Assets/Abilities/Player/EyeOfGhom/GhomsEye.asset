@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126ef11e94e56b24db06e1df3efd20b9, type: 3}
+  m_Name: GhomsEye
+  m_EditorClassIdentifier: 
+  name: Ghom's Eye
+  skillIcon: {fileID: 434901119778713889, guid: 72f4af43d31564d45a616c145918e426, type: 3}
+  cooldownTime: 15
+  activeTime: 2
+  inputManager: {fileID: 0}
+  prefabManager: {fileID: 0}
+  sounds: {fileID: 0}
+  caster: {fileID: 0}
+  shootSource: {fileID: 0}
+  mousePos: {x: 0, y: 0, z: 0}
+  damagePerTick: 10
+  laserObject: {fileID: 5033600099922537851, guid: 2b8e4031c44c59b43a684490ff41ea58, type: 3}
+  layerToAttack:
+    serializedVersion: 2
+    m_Bits: 512

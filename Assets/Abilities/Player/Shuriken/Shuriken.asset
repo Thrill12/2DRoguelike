@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87d8864e56b7261439eeabaad9dd77e3, type: 3}
+  m_Name: Shuriken
+  m_EditorClassIdentifier: 
+  name: Shuriken
+  skillIcon: {fileID: 9198057186353938896, guid: 04e4d569f296bf242829f844b0b3a5dc, type: 3}
+  cooldownTime: 0.6
+  activeTime: 0
+  inputManager: {fileID: 0}
+  prefabManager: {fileID: 0}
+  sounds: {fileID: 0}
+  caster: {fileID: 0}
+  shootSource: {fileID: 0}
+  damage: 10
+  velocity: 45
+  timeToReturn: 0.3
+  projectile: {fileID: 2536920359797882094, guid: 09f25f40b2e8c7d4297bc21953e5cf9d, type: 3}
+  layerToAttack:
+    serializedVersion: 2
+    m_Bits: 512

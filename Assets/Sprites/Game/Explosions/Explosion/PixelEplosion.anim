@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PixelEplosion
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_PointLightOuterRadius
+    path: ShootLight
+    classID: 114
+    script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: -4178046375966092550, guid: 19d580ca7d5504b4d8182ede55d3625a, type: 3}
+    - time: 0.083333336
+      value: {fileID: -4309224192539515645, guid: cb0ca7495779e984d80f14603dfcb611, type: 3}
+    - time: 0.16666667
+      value: {fileID: 781045095500365311, guid: 1d5cee873e52ed4448edbafb3af01042, type: 3}
+    - time: 0.25
+      value: {fileID: -1250627368746320687, guid: d08615fe7d0be4043b7ed55c3fbaee79, type: 3}
+    - time: 0.33333334
+      value: {fileID: 8288426215254106694, guid: 5af613d492ab910448c98f0635b9abb2, type: 3}
+    - time: 0.41666666
+      value: {fileID: 4113829005332862926, guid: fec334e24f90a3746b9671ddaaa407df, type: 3}
+    - time: 0.5
+      value: {fileID: -5099292496197868168, guid: b9e1e1a2937fb2b4c8aed5e45af42fe7, type: 3}
+    - time: 0.5833333
+      value: {fileID: -2966200626249415253, guid: dcb7bad3b2bf89e46b9a7b861d0ef865, type: 3}
+    - time: 0.6666667
+      value: {fileID: 0}
+    attribute: m_Sprite
+    path: 
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 3731698595
+      attribute: 1358747199
+      script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: -4178046375966092550, guid: 19d580ca7d5504b4d8182ede55d3625a, type: 3}
+    - {fileID: -4309224192539515645, guid: cb0ca7495779e984d80f14603dfcb611, type: 3}
+    - {fileID: 781045095500365311, guid: 1d5cee873e52ed4448edbafb3af01042, type: 3}
+    - {fileID: -1250627368746320687, guid: d08615fe7d0be4043b7ed55c3fbaee79, type: 3}
+    - {fileID: 8288426215254106694, guid: 5af613d492ab910448c98f0635b9abb2, type: 3}
+    - {fileID: 4113829005332862926, guid: fec334e24f90a3746b9671ddaaa407df, type: 3}
+    - {fileID: -5099292496197868168, guid: b9e1e1a2937fb2b4c8aed5e45af42fe7, type: 3}
+    - {fileID: -2966200626249415253, guid: dcb7bad3b2bf89e46b9a7b861d0ef865, type: 3}
+    - {fileID: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.68333334
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.16666667
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_PointLightOuterRadius
+    path: ShootLight
+    classID: 114
+    script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []

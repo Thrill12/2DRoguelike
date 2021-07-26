@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu/MainMenu/MainMenu.unity
+    guid: 0923aa85a86a87f4a9a01c51fa5f1b00
+  - enabled: 1
+    path: Assets/Scenes/Levels/YellowCity/YellowCity.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Levels/SanguineBasin/Sanguine Basin.unity
+    guid: 7a1e755d779544040ab9b1109fe01b82
+  - enabled: 1
+    path: Assets/Scenes/Levels/Coasts of Time/Coasts of Time.unity
+    guid: 362de3c9fdd4d5d4090339e7ad7df064
+  - enabled: 1
+    path: Assets/Scenes/Levels/Fields of Desertion/Fields Of Desertion.unity
+    guid: 0b0aed8ed2e970a45a1360ef79c6fbec
+  m_configObjects: {}

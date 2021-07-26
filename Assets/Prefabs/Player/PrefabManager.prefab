@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7301685555986200076
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7301685555986200073}
+  - component: {fileID: 7301685555986200074}
+  - component: {fileID: 5982862200133472110}
+  m_Layer: 0
+  m_Name: PrefabManager
+  m_TagString: PrefabManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7301685555986200073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7301685555986200076}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -169.76486, y: 0.73731345, z: -8.870127}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7301685555986200074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7301685555986200076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0f048ee07d7894fa9fa092e9406ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageTextPopup: {fileID: 4885296829198523934, guid: f2612a55eeec073429b0c63c526d402c, type: 3}
+  regenHealthTextPopup: {fileID: 6701926783343724039, guid: 86c656265a92da44c9c7c5554559823d, type: 3}
+  itemTextPopup: {fileID: 4297456496184265826, guid: 503cd16ff19d81f488834c084b9d4c73, type: 3}
+  normalEnemyHealthBar: {fileID: 4013735722945936247, guid: daf905cf34d1a2a4da181548fcf2045e, type: 3}
+  simpleShootingShootLight: {fileID: 2847650337839670929, guid: a8c8857726cca5b4eb612c78e904ca38, type: 3}
+  bleed: {fileID: 5456842085510623242, guid: fbfeae2b02dc53b4e9745cc0f8e560f4, type: 3}
+  ignite: {fileID: 1382160916671655692, guid: f4aac1a30361d654fb54300281456fd9, type: 3}
+  puff: {fileID: 2390229557730840279, guid: 02a0ccd7835c5a44290b4b63ab96a238, type: 3}
+  soulmarkGain: {fileID: 4808219583297458287, guid: b393564b00429d84d931788009ad4a9f, type: 3}
+  slashEffect: {fileID: 3006503564501451859, guid: 66e3999f19e03e74abfeff8aecdace78, type: 3}
+  meteor: {fileID: 8787634759861636888, guid: 55c0c2f6e95adbe4ca448cbedd459985, type: 3}
+  interactables: {fileID: 11400000, guid: c37a5ca43e2a29145a8462bdfd336c40, type: 2}
+--- !u!114 &5982862200133472110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7301685555986200076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a90d4fb4b8923c4592ef4eaadd24bcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

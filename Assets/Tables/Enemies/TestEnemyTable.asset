@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0aac4b79766f129429a2b16e7dda9804, type: 3}
+  m_Name: TestEnemyTable
+  m_EditorClassIdentifier: 
+  enemies:
+  - name: Mr Sherman
+    weight: 3
+    enemy: {fileID: 8368053592463905446, guid: d20a1fd34d5b47d4a80d2009d5d824cd, type: 3}
+  - name: Suspicious Cloud
+    weight: 9
+    enemy: {fileID: 6581443268870996276, guid: dfe0375c539bffd479c0b23d99981719, type: 3}
+  - name: BallChain
+    weight: 1
+    enemy: {fileID: 8638760412533201334, guid: 80a59b9f1576a5d4bacd9011640368da, type: 3}
+  - name: WheelBot
+    weight: 6
+    enemy: {fileID: 7002383346178386275, guid: 9648dde653d166843a0f2282fb15c678, type: 3}

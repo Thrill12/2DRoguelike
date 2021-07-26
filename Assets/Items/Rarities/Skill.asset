@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e625b0ab0cbefb445afb09c3bb794960, type: 3}
+  m_Name: Skill
+  m_EditorClassIdentifier: 
+  rar:
+    rarityName: Skill
+    rarityColor: {r: 1, g: 0.046545807, b: 0, a: 1}
+    scaleInInv: {x: 2, y: 2}
+    itemsInRarity:
+    - itemName: Shuriken
+      itemWeight: 1
+      itemObject: {fileID: 1906906946959929490, guid: 29bf65bd46bd9b9408430aba00c1ec82, type: 3}
+    - itemName: Fan of Knives
+      itemWeight: 1
+      itemObject: {fileID: 4838652376575392475, guid: b8f909207b45e044294bf2326722df99, type: 3}
+    - itemName: Claymore
+      itemWeight: 1
+      itemObject: {fileID: 950498850035991421, guid: 4e84d93a744a42f438d0577d29b9d13b, type: 3}
+  rarityWeight: 0

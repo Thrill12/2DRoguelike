@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e625b0ab0cbefb445afb09c3bb794960, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier: 
+  rar:
+    rarityName: Common
+    rarityColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+    scaleInInv: {x: 0.5, y: 0.5}
+    itemsInRarity:
+    - itemName: Squirtpack
+      itemWeight: 50
+      itemObject: {fileID: 3563590283558091929, guid: ec29f7d6e558f924eb28adc5b5376f81, type: 3}
+    - itemName: Steel Toed Socks
+      itemWeight: 50
+      itemObject: {fileID: 8991900501747802081, guid: 79fbe4d3174d09e498fbd1b5332e5002, type: 3}
+    - itemName: Coagulated Heart
+      itemWeight: 50
+      itemObject: {fileID: 5188797661965320191, guid: 6c1ec590ddc365f4d816e0508260c3e6, type: 3}
+    - itemName: Electric Heelie
+      itemWeight: 50
+      itemObject: {fileID: 3563590283558091929, guid: 8c610c5b71a01334e8e9dde1a6a73f80, type: 3}
+  rarityWeight: 0

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4758666019076020507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4758666019076020501}
+  - component: {fileID: 4758666019076020506}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: LevelGenerator
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4758666019076020501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758666019076020507}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -90.13623}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4758666019076020506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4758666019076020507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cb175ff41d22324d934a3b48692b53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objs:
+  - {fileID: 227307603007709126, guid: 9d7efd9c122b2024eb52509d511e097b, type: 3}
+  - {fileID: 2263724929755488500, guid: 07ec593d6915a0e429ea9656d207a705, type: 3}
+  - {fileID: 2428143486466879121, guid: 8ed1d99cdda344f49ad1fcbbaef0302f, type: 3}
+  buildings:
+  - {fileID: 8798349090464326578, guid: 9d7efd9c122b2024eb52509d511e097b, type: 3}
+  - {fileID: 317379072330615577, guid: 07ec593d6915a0e429ea9656d207a705, type: 3}
+  - {fileID: 2415979378347353358, guid: 8ed1d99cdda344f49ad1fcbbaef0302f, type: 3}
+  - {fileID: 4769117267580468637, guid: e136d10227acf7e46b6c02261eb4cf84, type: 3}
+  buildingsNoLamp:
+  - {fileID: 8798349090464326578, guid: 9d7efd9c122b2024eb52509d511e097b, type: 3}
+  - {fileID: 317379072330615577, guid: 07ec593d6915a0e429ea9656d207a705, type: 3}
+  - {fileID: 2415979378347353358, guid: 8ed1d99cdda344f49ad1fcbbaef0302f, type: 3}
+  smallAttachments:
+  - {fileID: 2291197342133551480, guid: 3b4fe1d3f276e5d40b9a58530a8765a9, type: 3}
+  - {fileID: 7292265987582010105, guid: 9a3d6aaf7a2a3204a8c4abb8812c8ad6, type: 3}
+  - {fileID: 7622093090743359205, guid: 7fafc934dbb5a05408f121d18dad28b2, type: 3}
+  - {fileID: 7276600163168417306, guid: a45e71fb985a337448e1f5aa331c55ed, type: 3}
+  - {fileID: 6980657691648422624, guid: 396968fe3e8c1da4b9d73f68a55230de, type: 3}
+  - {fileID: 677742029847845452, guid: 6e6156d2f6faa904c99f855befcde89b, type: 3}
+  genRuns: 50
+  maxAttachments: 500
+  maxStartNumber: 70
+  hasSpawnedTeleporter: 0
+  teleporter: {fileID: 6907714469621093728, guid: 2d8e515606e918e4abc1c141f33a0363, type: 3}
